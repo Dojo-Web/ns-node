@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
-
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: process.env.NODE_ENV === 'production' ?  '/ns-node/' : '/',
   title: "NsNode",
   description: "A VitePress Site1",
   themeConfig: {
