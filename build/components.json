@@ -1,5 +1,0 @@
-{
-    "button": "/packages/button/index.ts",
-    "checkbox": "/packages/checkbox/index.ts",
-    "div-slot": "/packages/div-slot/index.ts"
-}
