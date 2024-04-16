@@ -13,9 +13,11 @@ cd docs/.vitepress/dist
 git init
 git add .
 git commit -m 'deploy'
+git pull origin master
 
 # 部署到 https://<username>.github.io/<repo>
-git push -f  master:github-pages
+# git push -f  master:github-pages
+git push  -f https://github.com/Dojo-Web/ns-node.git master:github-pages
 
 # 提交所有代码到github
 cd ../../../
