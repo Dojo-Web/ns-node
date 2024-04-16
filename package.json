@@ -11,7 +11,8 @@
     "dist": "npm run build:componets && npm run build:prod",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "docs:deploy": "sh deploy.sh"
   },
   "keywords": [
     "前端组件库"
