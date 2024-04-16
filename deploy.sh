@@ -9,8 +9,6 @@ yarn run docs:build
 # 提交打包静态网站到 github-pages 分支
 git add docs/.vitepress/dist
 git commit -m 'deploy'
-git pull origin master
-
 # 部署到 https://<username>.github.io/<repo>
 # git push -f  master:github-pages
 git push  -f https://github.com/Dojo-Web/ns-node.git master:github-pages
